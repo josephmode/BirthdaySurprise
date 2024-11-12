@@ -26,7 +26,7 @@ function Boton() {
     return (
         <>
             <div>
-                <button id="boton" onClick={saludar}>hola</button>
+                <button id="boton" onClick={saludar}>Festejemos</button>
             </div>
             {showConfetti && (
                 <>
