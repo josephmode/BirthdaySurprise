@@ -1,0 +1,19 @@
+html, body {
+    overflow: hidden;  /* Elimina ambos scrolls */
+    margin: 0;         /* Elimina el margen por defecto */
+    padding: 0;        /* Elimina el padding por defecto */
+    width: 100%;       /* Asegura que el ancho esté restringido al tamaño de la pantalla */
+    height: 100%;      /* Asegura que la altura esté restringida al tamaño de la pantalla */
+}
+
+/* Puedes añadir esto para mejorar la apariencia en móviles */
+body {
+    position: fixed;   /* Impide el scroll al estar fijo */
+    width: 100%;       /* Evita el desbordamiento en pantallas pequeñas */
+    top: 0;
+    left: 0;
+}
+
+* {
+    box-sizing: border-box; /* Asegura que el tamaño de los elementos no provoque el desbordamiento */
+}
